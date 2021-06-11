@@ -14,6 +14,8 @@ import java.util.*;
 			for (int i=0 ; i<10; i++){
 				numeroaleatorio(n);
 			}
+
+			System.out.println("El número mayor es: "+mayor);
 						
 			
 		}
@@ -23,8 +25,8 @@ import java.util.*;
 
 				if ( n > mayor){
 				mayor = n;
-				System.out.println("El número mayor es: "+mayor);
-			}
+				
+				}
 			}
 		
 	}

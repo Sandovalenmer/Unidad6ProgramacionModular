@@ -16,7 +16,7 @@ import java.util.*;
 			System.out.println("Ingrese el número a buscar: ");
 			s = scanner.nextInt();
 
-			for (int i=0 ; i<8; i++){
+			for (int i = 0 ; i<8; i++){
 				numeroaleatorio(n);
 
 			if (s == n){
