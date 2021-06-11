@@ -16,18 +16,7 @@ import java.util.*;
 			for(int i = 0 ; i<5; i++){
 			mostrarDato(i);
 			}
-
-		double promedio = getPromedio();
-			System.out.println("El promedio es "+ promedio);
-			}
-			public double getPromedio(){
-			int total = 0;
-			for(int i = 0; i<5; i++){
-			total+=elementos[i];
-			}
-		double promedio = (double)total/5;
-		return promedio;
-		}
+			
 			public void mostrarDato(int numero){
 			System.out.println("El indice es "+numero+ " el valor es: "+ elementos[numero]);
 		}
