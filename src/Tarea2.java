@@ -8,22 +8,23 @@ import java.util.*;
 		}
 		int[] elementos = new int[10];
 		Scanner scanner = new Scanner(System.in);
-		int n; 
+		int n, comp, mayor;
 
 		public Tarea2(){
 			for (int i=0 ; i<10; i++){
 				numeroaleatorio(n);
 			}
-
+						
 			
 		}
-
 			public void numeroaleatorio(int numero){
 				n = (int)(Math.random()*99); 
 				System.out.println("Los numero aleatorios: "+n);
+
+				if ( n > mayor){
+				mayor = n;
+				System.out.println("El número mayor es: "+mayor);
+			}
 			}
 		
-			public void comapracion(){
-			
-			}
 	}
